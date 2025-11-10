@@ -1,33 +1,33 @@
-# Exploring Car Sales Data
+# Identify Drivers of Heavy Traffic
 
-This project explores a dataset of used car listings to identify key factors that influence car prices.  
-The goal is to understand patterns and relationships between car attributes such as mileage, registration year, brand, and price.
+This project analyzes a dataset of traffic conditions from a highway in the U.S.  
+The goal is to identify patterns and key factors that contribute to heavy traffic, using time-based and weather-related variables.
 
 ## 📊 Objectives
-- Analyze and clean the dataset from eBay Kleinanzeigen (Germany).
-- Explore how different factors (mileage, age, brand) influence car prices.
-- Identify outliers and unrealistic data points.
-- Summarize key findings about pricing trends in the used car market.
+- Explore relationships between time, weather, and traffic volume.
+- Identify when and why traffic becomes heavier.
+- Support data-driven decisions for urban traffic management and planning.
 
 ## 🧰 Tools and Libraries
 - Python  
 - pandas  
-- NumPy  
-- Matplotlib  
+- matplotlib  
+- datetime  
 - Jupyter Notebook
 
 ## 🧩 Key Steps
-1. Load and inspect raw data.
-2. Clean column names and remove duplicates/outliers.
-3. Convert data types for price, mileage, and year of registration.
-4. Analyze brand-level statistics (average price and mileage).
-5. Visualize relationships using bar charts.
+1. Load and explore the traffic dataset.
+2. Extract time and date components (month, hour, weekday).
+3. Analyze how traffic varies by time of day and day of week.
+4. Examine the effect of weather conditions (temperature, rain, snow) on traffic volume.
+5. Visualize trends using line and bar charts.
 
 ## 💡 Insights
-- The average car price decreases as mileage increases.  
-- Newer cars (registered after 2015) maintain higher prices, especially from premium brands.  
-- Volkswagen, BMW, and Mercedes dominate the listings with moderate average prices.  
+- Traffic volume peaks during weekday rush hours (7–9 AM and 4–6 PM).  
+- Weekends show significantly lower traffic volumes.  
+- Weather factors (like snow or rain) have smaller but noticeable effects.  
+- Warmer months tend to have slightly higher traffic on average.
 
 ## 🏁 About
 This project was inspired by a guided project from [DataQuest.io](https://www.dataquest.io/).  
-All cleaning, analysis, and commentary were completed independently.
+All analysis, code, and interpretation were created independently.
